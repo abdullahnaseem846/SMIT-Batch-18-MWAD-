@@ -153,23 +153,27 @@
 //     console.log("FALSE");
 // }
 
-console.log("....................................................................");
+// console.log("....................................................................");
 
-var fullName = "Ahmed Ali";
+// var fullName = "Ahmed Ali";
 
-// charAt (index) / [] box
-// A h m e d   A l i
-// 0 1 2 3 4 5 6 7 8
+// // charAt (index) / [] box
+// // A h m e d   A l i
+// // 0 1 2 3 4 5 6 7 8
 
-// length 
-// A h m e d   A l i
-// 1 2 3 4 5 6 7 8 9
-var index = fullName.length -1;
-console.log(fullName[index]);
+// // length 
+// // A h m e d   A l i
+// // 1 2 3 4 5 6 7 8 9
 
-console.log(fullName[6]);
+// var index = fullName.length -1;
+// console.log(fullName[index]);
 
-console.log(fullName.charAt(5));
+// console.log(fullName[6]);
+
+// console.log(fullName.charAt(5));
+
+
+//.........................................................................................
 
 
 

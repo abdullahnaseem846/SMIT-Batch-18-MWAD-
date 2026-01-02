@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    @media only screen and (max-width: 455px){
+        .hover{
+            flex-direction: column;
+        }
+    }
+}
+body{
+    margin: 3em;
+     font-family: "Bricolage Grotesque", sans-serif;
+}
+header{
+    border: 1px solid red;
+    display: flex;
+    justify-content: space-around;
+     margin-bottom: 2em;
+    border-radius: 28px;
+    width: 95vw;
+     /* font-family: "Bricolage Grotesque", sans-serif; */
+}
+nav ul{
+    /* border: 1px solid ; */
+    list-style: none;
+    display: flex;
+    margin-top: 0.8em;
+}
+nav ul li a{
+    text-decoration: none;
+    margin: 5em;
+    color: #000;
+    font-weight: 700;
+}
+.logo{
+    /* border: 1px solid green; */
+    font-weight: bolder;
+    font-size: larger;
+    display: inline-block;
+}
+/* ---------------------HERO-SECTION1------------------------- */
+.herosection{
+    /* border: 1px solid red; */
+    background-color: #F9E6D0;
+    /* margin: 3em; */
+    border-radius: 2%;
+    width: 95vw;
+    height: 72vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     position: relative;
+}
+.hero-content{
+    /* border: 1px solid green; */
+    text-align: center;
+    margin: 28em;
+     /* font-family: "Bricolage Grotesque", sans-serif; */
+}
+.hero-content h1{
+    /* border: 1px solid red; */
+    margin: 0.8em 3em 0em 3em;
+    font-size:55px;
+}
+.hero-content p{
+    /* border: 1px solid red; */
+    margin: 1em 14em 2em 14em;
+    font-size: 18px;
+}
+.hero-btn{
+    background: #000;
+    color: #fff;
+    border-radius: 18px;
+    padding: 0.7em 2.5em;
+}
+.hero-img1{
+    position: absolute;
+    right: 0.1%;
+    bottom: 0%;
+    overflow: hidden;
+}
+.hero-img2{
+    position: absolute;
+    left: 0.1%;
+    bottom: 0.1%;
+}
+
+/* ---------------------HERO-SECTION2------------------------- */
+.herosection2 {
+    height: 550px;
+    display: flex;
+    margin-top: 100px;
+}
+
+.hero2photosection {
+    width: 28%;
+    height: 550px;
+    border-radius: 15%;
+    padding-left: 3%;
+    background-color: #00373E;
+    padding-top: 3%;
+}
+
+.hero2textsection {
+    width: 50%;
+    padding-left: 85px;
+    justify-content: space-between;
+    padding-top: 20px;
+    color: #00373E;
+}
+
+.hero2text2 {
+    font-size: 50px;
+}
+
+.hero2text3 {
+    font-size: 25px;
+}
+
+.hero2btn {
+    background-color: #00373E;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 35px;
+}
+.hero-img1 {
+    border-radius: 3%;
+}
+
+.hero-img2 {
+    border-radius: 3%;
+}
+
+/* ---------------------HERO-SECTION3------------------------- */
+
+.herosection3 {
+    text-align: center;
+    padding-top: 100px;
+    color: #00373E;
+}
+
+.hero3text1 {
+    font-weight: bold;
+
+}
+.hero3text2 {
+    font-size: 60px;
+}
+
+.hero3text3 {
+    font-size: 30px;
+}
+
+/* ---------------------HERO-SECTION3------------------------- */
+
+.herosection4 {
+    display: flex;
+    margin-top: 100px;
+}
+.hero4box1 {
+    background-color: #F9E6D0;
+    height: 500px;
+    width: 48%;
+    border-radius: 8%;
+    padding-left: 50px;
+    padding-top: 100px;
+}
+
+.hero4b1text1 {
+    font-size: 50px;
+}
+
+.hero4b1text2 {
+    font-size: 25px;
+}
+.hero4b1text3 {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 35px;
+    background-color: #F9E6D0;
+
+}
+
+.hero4box2 {
+    height: 500px;
+    width: 48%;
+    border: 1px solid black;
+    margin-left: 50px;
+    border-radius: 8%;
+    padding-top: 80px;
+    padding-left: 100px;
+}
+
+.hero4b2text1 {
+    font-size: 50px;
+}
+.hero4b2text2 {
+    font-size: 25px;
+}
+.hero4b2text3 {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 35px;
+    background-color: white;
+}
+.hero4img {
+    position: absolute;
+    left: 0.1%;
+    bottom: 0.1%;
+}
+
+
